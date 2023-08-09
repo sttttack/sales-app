@@ -13,9 +13,31 @@
   z-index: 10;
 }
 
+.logo {
+  display: flex;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.logo h1 {
+  color: #2b2b2b;
+}
+
+.logo img {
+  width: 37px;
+  height: 37px;
+}
+
 .navList {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 1rem;
   text-transform: uppercase;
+}
+
+.navLinks {
+  font-size: 1rem;
+  color: #464646;
+  font-weight: 400;
+  text-decoration: none;
 }
