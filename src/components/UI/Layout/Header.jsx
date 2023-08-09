@@ -1,13 +1,15 @@
 import React from "react";
 
+import classes from "../Layout/Header.module.css";
+
 export default function Header() {
   return (
-    <div>
+    <div className={classes.header}>
       <div>
         <h1>CarSales</h1>
       </div>
       <nav>
-        <ul>
+        <ul className={classes.navList}>
           <li>Home</li>
           <li>About</li>
           <li>Services</li>
