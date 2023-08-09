@@ -1,6 +1,7 @@
 import React from "react";
 
 import classes from "../Layout/Header.module.css";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,12 +11,12 @@ export default function Header() {
       </div>
       <nav>
         <ul className={classes.navList}>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Car Collection</li>
-          <li>Location</li>
-          <li>Contact</li>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/carcollection">Car Collection</NavLink>
+          <NavLink to="/location">Location</NavLink>
+          <NavLink to="/services">Services</NavLink>
         </ul>
       </nav>
       <div>
