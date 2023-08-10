@@ -1,15 +1,13 @@
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 378px;
+  width: 100vw; /* Set to full viewport width */
   background-color: #ffffff;
-
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 10%;
+  padding: 50px 10%; /* Remove left and right padding */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 10;
 }

@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className={classes.header}>
+    <header className={classes.header}>
       <div className={classes.logo}>
         <img src={CarLogo} />
         <h1>Mobile</h1>
@@ -36,6 +36,6 @@ export default function Header() {
       <div>
         <CallButton />
       </div>
-    </div>
+    </header>
   );
 }
