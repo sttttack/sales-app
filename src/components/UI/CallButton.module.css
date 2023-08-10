@@ -1,0 +1,22 @@
+.callButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 219px;
+  height: 50px;
+  background-color: #f1f4ff;
+  gap: 1rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.callButton span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0d3de5;
+}
+
+.callButton:hover {
+  background-color: #d2d2d2;
+}

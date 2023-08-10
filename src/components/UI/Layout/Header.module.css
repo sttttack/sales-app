@@ -36,8 +36,11 @@
 }
 
 .navLinks {
-  font-size: 1rem;
   color: #464646;
-  font-weight: 400;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   text-decoration: none;
 }

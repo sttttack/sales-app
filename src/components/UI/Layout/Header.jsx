@@ -1,6 +1,7 @@
 import CarLogo from "../../../assets/car.png";
 
 import classes from "../Layout/Header.module.css";
+import CallButton from "../CallButton";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
@@ -33,7 +34,7 @@ export default function Header() {
         </ul>
       </nav>
       <div>
-        <span>+1 917 414 6014</span>
+        <CallButton />
       </div>
     </div>
   );
