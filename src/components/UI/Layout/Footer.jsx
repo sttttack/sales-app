@@ -1,5 +1,3 @@
-import React from "react";
-
 import CarLogo from "../../../assets/car.png";
 import Icon1 from "../../../assets/icon1.png";
 import Icon2 from "../../../assets/icon2.png";
@@ -86,6 +84,9 @@ export default function Footer(props) {
         <ContactTab text={`77 Highfield Road London N36 7SB`} image={Icon2} />
         <ContactTab text={`212 123 0000`} image={Icon1} />
       </div>
+      <span className={classes.mobile}>
+        Mobile - © 2023 All Rights Reserved
+      </span>
     </footer>
   );
 }

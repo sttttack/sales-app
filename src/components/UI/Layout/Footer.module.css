@@ -74,3 +74,10 @@
   font-weight: 400;
   line-height: 44px;
 }
+
+.mobile {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
