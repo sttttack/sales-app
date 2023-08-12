@@ -4,6 +4,8 @@ export default function Home() {
   return (
     <div>
       <SearchTab />
+      <SearchTab />
+      <SearchTab />
     </div>
   );
 }

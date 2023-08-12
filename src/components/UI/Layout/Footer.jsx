@@ -84,9 +84,9 @@ export default function Footer(props) {
         <ContactTab text={`77 Highfield Road London N36 7SB`} image={Icon2} />
         <ContactTab text={`212 123 0000`} image={Icon1} />
       </div>
-      <span className={classes.mobile}>
+      {/* <span className={classes.mobile}>
         Mobile - © 2023 All Rights Reserved
-      </span>
+      </span> */}
     </footer>
   );
 }

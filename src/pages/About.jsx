@@ -1,5 +1,9 @@
-import React from "react";
+import SearchTab from "../components/UI/Heading/SearchTab";
 
 export default function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <SearchTab />
+    </div>
+  );
 }
