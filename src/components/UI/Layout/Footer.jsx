@@ -17,7 +17,8 @@ export default function Footer(props) {
           </div>
           <h5>Best dealer in the US</h5>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Search millions of new and used cars for sale. Save favorites for
+            price drop alerts and tailored recommendations.
           </p>
         </div>
         <div className={classes.socialMedia}>

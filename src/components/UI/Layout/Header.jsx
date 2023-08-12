@@ -33,9 +33,7 @@ export default function Header() {
           </NavLink>
         </ul>
       </nav>
-      <div>
-        <CallButton />
-      </div>
+      <CallButton />
     </header>
   );
 }

@@ -1,0 +1,35 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 377px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 44px;
+  background: #f0f0f0;
+  padding-left: 1rem;
+}
+
+.hot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 134px;
+  height: 40px;
+  flex-shrink: 0;
+  color: white;
+  border-radius: 44px;
+  background: #ff9446;
+}
+
+.conteiner p {
+  line-height: 2rem;
+  width: 450px;
+}
