@@ -12,7 +12,7 @@
   padding-left: 6rem;
   border-radius: 40px;
   background: #0d3de5;
-  width: 1200px;
+  max-width: 1620px;
   height: 423px;
   flex-shrink: 0;
 }
