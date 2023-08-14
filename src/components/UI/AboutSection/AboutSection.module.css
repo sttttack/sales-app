@@ -1,6 +1,49 @@
+.main {
+  margin-top: 400px;
+}
+
 .cardSection {
   display: flex;
   flex-direction: row;
   gap: 40px;
   justify-content: end;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 30px;
+  margin-bottom: 6rem;
+  margin-left: 700px;
+}
+
+.heading span {
+  color: #0d3de5;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.heading h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.heading p {
+  width: 663px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
 }
