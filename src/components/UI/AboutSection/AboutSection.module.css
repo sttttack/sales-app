@@ -47,3 +47,17 @@
   font-weight: 400;
   line-height: 32px; /* 177.778% */
 }
+
+.sideDiv {
+  position: absolute;
+  left: 0;
+  width: 813px;
+  height: 905px;
+  flex-shrink: 0;
+  border-radius: 0px 100px 100px 0px;
+  background: linear-gradient(
+    136deg,
+    rgba(0, 23, 104, 0) 0%,
+    rgba(2, 8, 29, 0.38) 100%
+  );
+}

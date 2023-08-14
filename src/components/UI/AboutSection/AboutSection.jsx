@@ -12,6 +12,7 @@ export default function AboutSection(props) {
 
   return (
     <div className={classes.main}>
+      <div className={classes.sideDiv}></div>
       <div className={classes.heading}>
         <span>About</span>
         <h1>About the Mobile</h1>
